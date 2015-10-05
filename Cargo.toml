@@ -1,0 +1,8 @@
+[package]
+name = "roger"
+version = "0.1.0"
+authors = ["Rahul Sharma <rsconceptx@gmail.com>"]
+
+[dependencies.nickel]
+
+git = "https://github.com/nickel-org/nickel.rs.git"
