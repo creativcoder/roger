@@ -4,8 +4,8 @@ version = "0.1.0"
 authors = ["Rahul Sharma <rsconceptx@gmail.com>"]
 
 [dependencies]
-
 chrono = "*"
+inotify = "*"
 
 [dependencies.nickel]
 

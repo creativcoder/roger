@@ -3,6 +3,7 @@ name = "roger"
 version = "0.1.0"
 dependencies = [
  "chrono 0.2.16 (registry+https://github.com/rust-lang/crates.io-index)",
+ "inotify 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "nickel 0.7.0 (git+https://github.com/nickel-org/nickel.rs.git)",
 ]
 
@@ -80,6 +81,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "inotify"
+version = "0.2.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.2.7 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "kernel32-sys"
 version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -101,6 +110,11 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "libc"
 version = "0.1.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "libc"
+version = "0.2.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
